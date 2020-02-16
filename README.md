@@ -35,3 +35,7 @@ Frequency analysis techniques. For example, using Affine technique only to encry
 ### Table
 <p align="center"><img src = "images/table.PNG" ></p>
 
+### Encryption formula
+
+<p align="center"><img src = "images/Encryptionformula.PNG" ></p>
+
