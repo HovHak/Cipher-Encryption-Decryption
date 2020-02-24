@@ -89,7 +89,7 @@ And as for the final part, after finishing the improved version of affine substi
 
 # Testing my cipher
 
-### To encrypth
+### To encrypt
 For testing MyCipher simply run the project that is zipped along with the report, after compiling it, in the console you will see example of text that will require you to input ‘encrypt’ or ‘decrypt’ for using encryption or decryption. (Please check the example below
 <p align="center"><img src = "images/keyenter.PNG" ></p>
 
