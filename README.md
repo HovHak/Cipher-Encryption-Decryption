@@ -40,6 +40,8 @@ Frequency analysis techniques. For example, using Affine technique only to encry
 <p align="center"><img src = "images/Encryptionformula.PNG" ></p>
 
 * 1) Using the table above substitute the characters with their indices
+
+
 | S | U  |  S |   S |  E | X |
 | :------------ |:---------------:|:---------------:|:---------------:|:---------------:| -----:|
 | 18  | 20  | 18 | 18 | 4 | 23 |
