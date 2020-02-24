@@ -19,6 +19,8 @@ For monoalphabetic cipher I have implemented the Affine cipher that is considere
 <p align="center"><img src = "images/formula1.PNG" ></p>
 
 
+
+
 Affine takes two numeric keys to perform its encryption based on that it uses the formula listed above to perform encryption for each letter of the plain-text, where the ‘a’ and ‘b’ are the first and the second keys and ‘m’ represents the size of the alphabet used, in this case it is 26 for English letters.
 As for the decryption, Affine also uses both keys, but to perform decryption it must calculate the inverse modular multiplication. Thus, it uses formula (Check formula2) however to be able and calculate the inverse modular multiplication will only be possible if the first key ‘a’ and number of alphabet ‘m’ (in our case is 26) are coprime such that given the (key * x) mod 26 = 1, where the value ‘x’ will always be different and will be test from 0 to 26 until it finds the exact number that will coprime ‘a’ and ‘m’(check the example in formula3 given the firs key as 17).
 #### Formula 2
@@ -38,4 +40,39 @@ Frequency analysis techniques. For example, using Affine technique only to encry
 ### Encryption formula
 
 <p align="center"><img src = "images/Encryptionformula.PNG" ></p>
+#### Calculations 1
+
+
+### Decryption formula
+
+
+#### Calculations 2 
+#### Calculations 3
+
+
+#### Testing my cipher
+
+### To encrypth
+For testing MyCipher simply run the project that is zipped along with the report, after compiling it, in the console you will see example of text that will require you to input ‘encrypt’ or ‘decrypt’ for using encryption or decryption. (Please check the example below
+<p align="center"><img src = "images/keyenter.PNG" ></p>
+
+The input PlainText must be all capitalized even if it is not my code will return a decrypted message in capitals.
+Let’s say we want to perform encryption so we type ‘encrypt’ and follow to the next step where it asks us for the first and the second key(please check example below).
+
+<p align="center"><img src = "images/encrypted.PNG" ></p>
+
+## Note
+
+ The input PlainText must be all capitalized even if it is not MyCipher will still return decrypted message in capitals.
+ Please bear in mind that due to complex multiplication of modulo in Java the keys Ideally should not be higher than 100 and both keys should not be ‘even’ or ‘odd’ at the same time. (It is recommended to use key starting from 1 to 30)
+ Please also bear in mind that the same keys you input you will need them for the decryption phase along with the encrypted cipher text. So you might need to copy the encrypted cipher text.
+ To be able and test decryption you must compile MyCippher project again to start over again where you can input the same keys and the cipher text from the encryption phase
+
+### To decrypth
+<p align="center"><img src = "images/decrypt.PNG" ></p>
+
+If you type the ‘encrypt’ or ‘decrypt’ wrong it will show you recompile and try again just like in the example below.
+
+<p align="center"><img src = "images/decrypted.PNG" ></p>
+
 
