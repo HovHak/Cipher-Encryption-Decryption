@@ -18,9 +18,6 @@ For monoalphabetic cipher I have implemented the Affine cipher that is considere
 
 <p align="center"><img src = "images/formula1.PNG" ></p>
 
-| S | U  |  S |   S |  E | X |
-| :------------ |:---------------:|:---------------:|:---------------:|:---------------:| -----:|
-| 18  | 20  | 18 | 18 | 4 | 23 |
 
 Affine takes two numeric keys to perform its encryption based on that it uses the formula listed above to perform encryption for each letter of the plain-text, where the ‘a’ and ‘b’ are the first and the second keys and ‘m’ represents the size of the alphabet used, in this case it is 26 for English letters.
 As for the decryption, Affine also uses both keys, but to perform decryption it must calculate the inverse modular multiplication. Thus, it uses formula (Check formula2) however to be able and calculate the inverse modular multiplication will only be possible if the first key ‘a’ and number of alphabet ‘m’ (in our case is 26) are coprime such that given the (key * x) mod 26 = 1, where the value ‘x’ will always be different and will be test from 0 to 26 until it finds the exact number that will coprime ‘a’ and ‘m’(check the example in formula3 given the firs key as 17).
@@ -41,10 +38,22 @@ Frequency analysis techniques. For example, using Affine technique only to encry
 ### Encryption formula
 
 <p align="center"><img src = "images/Encryptionformula.PNG" ></p>
-#### Calculations 1
 
+* 1) Using the table above substitute the characters with their indices
+| S | U  |  S |   S |  E | X |
+| :------------ |:---------------:|:---------------:|:---------------:|:---------------:| -----:|
+| 18  | 20  | 18 | 18 | 4 | 23 |
+
+* 2) Using the new encryption formula compute the substitution
 
 ### Decryption formula
+
+* (7 * (18)) + 9 + 0 % 26 => 5 => F
+* (7 * (20)) + 9 + 2 % 26 => 21 => V
+* (7 * (18)) + 9 + 4 % 26 => 9 => J
+* (7 * (18)) + 9 + 6 % 26 => 11 => L
+* (7 * (4)) + 9 + 8 % 26 => 19 => T
+* (7 * (23)) + 9 + 10 % 26 => 24 => Y
 
 
 #### Calculations 2 
