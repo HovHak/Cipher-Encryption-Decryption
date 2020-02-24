@@ -63,10 +63,10 @@ Let’s say we want to perform encryption so we type ‘encrypt’ and follow to
 
 ## Note
 
- The input PlainText must be all capitalized even if it is not MyCipher will still return decrypted message in capitals.
- Please bear in mind that due to complex multiplication of modulo in Java the keys Ideally should not be higher than 100 and both keys should not be ‘even’ or ‘odd’ at the same time. (It is recommended to use key starting from 1 to 30)
- Please also bear in mind that the same keys you input you will need them for the decryption phase along with the encrypted cipher text. So you might need to copy the encrypted cipher text.
- To be able and test decryption you must compile MyCippher project again to start over again where you can input the same keys and the cipher text from the encryption phase
+* The input PlainText must be all capitalized even if it is not MyCipher will still return decrypted message in capitals.
+* Please bear in mind that due to complex multiplication of modulo in Java the keys Ideally should not be higher than 100 and both keys should not be ‘even’ or ‘odd’ at the same time. (It is recommended to use key starting from 1 to 30)
+* Please also bear in mind that the same keys you input you will need them for the decryption phase along with the encrypted cipher text. So you might need to copy the encrypted cipher text.
+* To be able and test decryption you must compile MyCippher project again to start over again where you can input the same keys and the cipher text from the encryption phase
 
 ### To decrypth
 <p align="center"><img src = "images/decrypt.PNG" ></p>
