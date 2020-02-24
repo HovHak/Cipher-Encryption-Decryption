@@ -18,7 +18,11 @@ For monoalphabetic cipher I have implemented the Affine cipher that is considere
 
 <p align="center"><img src = "images/formula1.PNG" ></p>
 
-
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 
 Affine takes two numeric keys to perform its encryption based on that it uses the formula listed above to perform encryption for each letter of the plain-text, where the ‘a’ and ‘b’ are the first and the second keys and ‘m’ represents the size of the alphabet used, in this case it is 26 for English letters.
