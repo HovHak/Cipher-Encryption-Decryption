@@ -50,7 +50,7 @@ Frequency analysis techniques. For example, using Affine technique only to encry
 #### Calculations 3
 
 
-#### Testing my cipher
+# Testing my cipher
 
 ### To encrypth
 For testing MyCipher simply run the project that is zipped along with the report, after compiling it, in the console you will see example of text that will require you to input ‘encrypt’ or ‘decrypt’ for using encryption or decryption. (Please check the example below
